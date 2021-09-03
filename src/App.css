@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.about,
+.hotels {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.about {
+  background-image: url('./assets/videos/video-2.mp4');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.hero-container {
+  /* background: url('../assets/images/img-home.jpg') center center/cover no-repeat; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+  object-fit: contain;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.hotels {
+  background-image: url('./assets/images/img-5.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.contact0 {
+  width: 100%;
+  height: 100%;
+  background-color:lightcoral;
+  position: absolute;
+}
+
+.contact1 {
+  width: 100%;
+  min-height: 550px;
+  
+}
+
+.cont {
+  background-color: rgb(187, 177, 196);
+  width: auto;
+  border: 8px solid rgb(141, 74, 85);
+  padding: 3px;
+  margin: 1.1%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  display: flex;
+  border-radius: 15px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.heading {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display";
+  font-size: 33px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-decoration: underline #6e8579;
+  align-items: center;
+}
+
+.names {
+  height: 180px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Playfair Display";
+  font-size: 25px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+}
+
+p { font-family: "Playfair Display";
+   font-size: 19px;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: 900;
+   line-height: 20px;
+}
+
+.social1 {
+  width: 100%;
+  height: 80px;
+  font-family: "Playfair Display";
+  font-size: 23px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 52.9px;
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 880px) {
+  contact0 {
+    background-color: lightblue;
+  }
+}
+
+.heading1 {
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  display:flex;
+  justify-content: center;
+  justify-content: center;
+  font-family: "Playfair Display";
+  font-size: 28px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+}
+
+.contents {
+  width: 100%;
+  height: 100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 {
+  background-color: lightyellow;
+  width: auto;
+  border: 23px solid lightblue;
+  padding: 9px;
+  margin: 5%;
+  display: inline-grid;
+  border-radius: 100px;
+}
+
