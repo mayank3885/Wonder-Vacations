@@ -48,7 +48,6 @@ h1{
 .back{
   background-size: cover;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
-  border-radius: 10px;
 	background-position: center;
 	-webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
 	transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -57,19 +56,23 @@ h1{
 	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
 	-webkit-backface-visibility: hidden;
 	        backface-visibility: hidden;
-	text-align: center;
+	text-align:center;
+  align-items: center;
 	min-height: 550px;
 	height: auto;
 	border-radius: 10px;
 	color: #fff;
 	font-size: 1.5rem;
+  padding: 4px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .back{
   background: #cedce7;
   background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
   background: -o-linear-gradient(45deg,  #638cac 0%,#596a72 100%);
-  background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+  background: linear-gradient(45deg,  #9b796a 0%,#596a72 100%);
 }
 
 .front:after{
@@ -98,7 +101,7 @@ h1{
 
 .back{
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
     width: 100%;
 }
@@ -117,6 +120,7 @@ h1{
     -webkit-perspective: inherit;
             perspective: inherit;
     z-index: 2;
+    
 }
 
 .container .back{
@@ -209,6 +213,7 @@ ul {
   list-style-type: square;
   text-align: left;
   font-size: 18px;
+  max-height: 550px;
   font-family:'Montserrat';
   font-weight: lighter;
 }
@@ -216,6 +221,7 @@ ul {
 span {
   font-weight: bold;
   color: rgb(6, 63, 46);
+  margin-right: 20px;
 }
 
 .link1 {

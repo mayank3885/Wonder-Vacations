@@ -1,17 +1,17 @@
 import React from "react";
-import "../../App.css";
+import styles from "./contact.module.css";
 
 function Contact() {
   return (
-    <div className='contact0'>
-    <div className='cont'>
-      <div className='contact1'>
-        <div className='heading'>CONTACT INFO</div>
-        <div className='names'>
+    <div className={styles.contact0}>
+    <div className={styles.cont}>
+      <div className={styles.contact1}>
+        <div className={styles.heading}>CONTACT INFO</div>
+        <div className={styles.names}>
           <ul>Karan Makwana<p>9649667843</p><p>7742430600</p></ul>
           <ul>Javed Hussain<p>8562887436</p></ul>
         </div>
-        <div className='social1'>
+        <div className={styles.social1}>
           <ul>
             <li>Email – wondervacation7@gmail.com</li>
             <li>Facebook –
