@@ -1,6 +1,5 @@
 import React from "react";
 import "./Cards.css";
-import { Link } from 'react-router-dom'
 import img12 from '../assets/images/img-12.png'
 import img13 from '../assets/images/img-13.jpg'
 import img14 from '../assets/images/img-14.jpg'
@@ -114,8 +113,8 @@ function Cards() {
         </div>
       </div>
    </div>
-   <div className='link1'>FOR BOOKING <Link to='/contact'>CONTACT US</Link></div>
-   <div className='link2'>FOR MORE <Link to='/packages'>TOUR PACKAGES</Link></div>
+   <div className='link1'>FOR BOOKING <a href='/contact'>CONTACT US</a></div>
+   <div className='link2'>FOR MORE <a href='/packages'>TOUR PACKAGES</a></div>
    </div>
   );
 }

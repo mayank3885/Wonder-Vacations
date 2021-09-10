@@ -9,9 +9,9 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About</h2>
-            <Link to="/about" target='1'>About Us</Link>
-            <Link to="/about" target='2'>Our Know How</Link>
-            <Link to="/about" target='3'>Professional Area</Link>
+            <a href="/about">About Us</a>
+            <a href="/about">Our Know How</a>
+            <a href="/about">Professional Area</a>
           </div>
           <div class="footer-link-items">
             <h2>Contact</h2>
