@@ -6,7 +6,7 @@ function Contact() {
     <div className={styles.contact0}>
     <div className={styles.cont}>
       <div className={styles.contact1}>
-        <div className={styles.heading}>CONTACT INFO</div>
+        <div className={styles.heading}>CONTACT US</div>
         <div className={styles.names}>
           <ul>Karan Makwana<p>9649667843</p><p>7742430600</p></ul>
           <ul>Javed Hussain<p>8562887436</p></ul>
