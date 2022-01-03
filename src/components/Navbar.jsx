@@ -36,7 +36,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            Wonder Vacations <i className="fab fa-typo3"></i>
+            Wonder Vacations 
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -55,11 +55,6 @@ function Navbar() {
             <li className="nav-item">
               <Link to="/packages" className="nav-links" onClick={closeMobileMenu}>
                 Tour Packages
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/hotels" className="nav-links" onClick={closeMobileMenu}>
-                Hotels
               </Link>
             </li>
             <li className="nav-item">

@@ -4,8 +4,7 @@ import Navbar from "./components/Navbar.jsx";
 import Home from "./components/pages/Home.jsx";
 import About from "./components/pages/About";
 import Contacts from "./components/pages/Contact";
-import Packages from "./components/pages/Packages";
-import Hotels from "./components/pages/Hotels";
+import Packages from "./components/pages/Packages"
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />
           <Route path="/packages" exact component={Packages} />
-          <Route path="/hotels" exact component={Hotels} />
           <Route path="/contact" exact component={Contacts} />
         </Switch>
       </Router>
