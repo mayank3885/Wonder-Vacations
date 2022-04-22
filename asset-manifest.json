@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Wonder-Vacations/static/css/main.f6c7f147.css",
-    "main.js": "/Wonder-Vacations/static/js/main.ad49de86.js",
+    "main.js": "/Wonder-Vacations/static/js/main.f8c74f6c.js",
     "static/media/Wv.mp4": "/Wonder-Vacations/static/media/Wv.ca7859c69041ea9dee6c.mp4",
     "static/media/img-16.jpg": "/Wonder-Vacations/static/media/img-16.d92a40a36ccdaa1a5d0a.jpg",
     "static/media/video-1.mp4": "/Wonder-Vacations/static/media/video-1.59e75226d30ad48f9ede.mp4",
@@ -40,10 +40,10 @@
     "static/media/img-26.jpg": "/Wonder-Vacations/static/media/img-26.8724053a3dafa002a2f8.jpg",
     "index.html": "/Wonder-Vacations/index.html",
     "main.f6c7f147.css.map": "/Wonder-Vacations/static/css/main.f6c7f147.css.map",
-    "main.ad49de86.js.map": "/Wonder-Vacations/static/js/main.ad49de86.js.map"
+    "main.f8c74f6c.js.map": "/Wonder-Vacations/static/js/main.f8c74f6c.js.map"
   },
   "entrypoints": [
     "static/css/main.f6c7f147.css",
-    "static/js/main.ad49de86.js"
+    "static/js/main.f8c74f6c.js"
   ]
 }
